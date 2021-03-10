@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_serial_numbers" label="Serial numbers" language="en" table="x_526773_amss_ware_order_line_item">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_serial_numbers</element>
+            <help/>
+            <hint/>
+            <label>Serial numbers</label>
+            <language>en</language>
+            <name>x_526773_amss_ware_order_line_item</name>
+            <plural>Serial numbers</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-10 20:57:23</sys_created_on>
+            <sys_id>1a9307fd2f32201075b42d5df699b656</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Serial numbers</sys_name>
+            <sys_package display_value="AMSS Warehouse" source="x_526773_amss_ware">6a4fec11db3220109cc5e9c94896194a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="AMSS Warehouse">6a4fec11db3220109cc5e9c94896194a</sys_scope>
+            <sys_update_name>sys_documentation_x_526773_amss_ware_order_line_item_u_serial_numbers_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-10 20:57:23</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
