@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="sys_user" label="Customer" max_length="40" name="x_526773_amss_ware_customer" sizeclass="0" type="collection">
+    <element extends="sys_user" label="Customer" max_length="40" name="x_526773_amss_ware_customer" type="collection">
         <element label="Building" max_length="40" name="u_building" type="string"/>
         <element label="Contact title" max_length="40" name="u_contact_title" type="string"/>
         <element label="DMIS" max_length="8" name="u_dmis" type="string"/>
