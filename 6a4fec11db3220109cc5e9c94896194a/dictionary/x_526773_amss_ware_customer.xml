@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_user" label="Customer" max_length="40" name="x_526773_amss_ware_customer" type="collection">
+        <element label="Building" max_length="40" name="u_building" type="string"/>
+        <element label="Contact title" max_length="40" name="u_contact_title" type="string"/>
+        <element label="DMIS" max_length="8" name="u_dmis" type="string"/>
+        <element label="DODAAC" max_length="20" name="u_dodaac" type="string"/>
+        <element label="Fax number" max_length="20" name="u_fax_number" type="phone_number_e164"/>
+        <element label="Region" max_length="40" name="u_region" type="string"/>
+        <element label="Service" max_length="1" name="u_service" type="string"/>
+    </element>
+</database>
