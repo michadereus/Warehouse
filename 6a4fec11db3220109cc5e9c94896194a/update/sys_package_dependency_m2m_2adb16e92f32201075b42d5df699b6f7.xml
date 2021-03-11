@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
     <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
-        <dependency display_value="Service Management Basics" source="com.snc.service">d79c80e3db2610109cc5e9c948961998</dependency>
+        <dependency display_value="Service Management Basics" source="com.snc.service">62e935e070042010d152c959a69db59a</dependency>
         <min_version>1.0.0</min_version>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-03-09 23:25:15</sys_created_on>
-        <sys_id>f85bee75db7a60109cc5e9c948961930</sys_id>
+        <sys_id>2adb16e92f32201075b42d5df699b6f7</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_package display_value="AMSS Warehouse" source="x_526773_amss_ware">6a4fec11db3220109cc5e9c94896194a</sys_package>
         <sys_updated_by>admin</sys_updated_by>
