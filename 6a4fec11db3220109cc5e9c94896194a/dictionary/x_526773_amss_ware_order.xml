@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Order" max_length="40" name="x_526773_amss_ware_order" type="collection">
+    <element label="Order" max_length="40" name="x_526773_amss_ware_order" sizeclass="0" type="collection">
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Order ID" max_length="40" name="number" type="string"/>
         <element label="Customer ID" max_length="40" name="u_customer_id" reference="x_526773_amss_ware_customer" type="string"/>
         <element label="Ship address" max_length="100" name="u_ship_address" type="string"/>
