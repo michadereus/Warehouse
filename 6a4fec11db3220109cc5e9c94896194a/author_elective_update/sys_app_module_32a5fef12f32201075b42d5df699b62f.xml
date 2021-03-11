@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application/>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Suppliers</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_526773_amss_ware_supplier</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_526773_amss_ware.supplier_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-10 19:56:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>32a5fef12f32201075b42d5df699b62f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Suppliers</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AMSS Warehouse" source="x_526773_amss_ware">6a4fec11db3220109cc5e9c94896194a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AMSS Warehouse">6a4fec11db3220109cc5e9c94896194a</sys_scope>
+        <sys_update_name>sys_app_module_32a5fef12f32201075b42d5df699b62f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-10 19:56:31</sys_updated_on>
+        <timeline_page/>
+        <title>Suppliers</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AMSS Warehouse">6a4fec11db3220109cc5e9c94896194a</application>
+        <file_path/>
+        <instance_id>eaef81bbdbdc734052cec59705961920</instance_id>
+        <instance_name>dev77306</instance_name>
+        <name>sys_app_module_32a5fef12f32201075b42d5df699b62f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application/><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Suppliers</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_526773_amss_ware_supplier</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><roles>x_526773_amss_ware.supplier_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-03-10 19:56:31</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>32a5fef12f32201075b42d5df699b62f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Suppliers</sys_name><sys_overrides/><sys_package display_value="AMSS Warehouse" source="x_526773_amss_ware">6a4fec11db3220109cc5e9c94896194a</sys_package><sys_policy/><sys_scope display_value="AMSS Warehouse">6a4fec11db3220109cc5e9c94896194a</sys_scope><sys_update_name>sys_app_module_32a5fef12f32201075b42d5df699b62f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-03-10 19:56:31</sys_updated_on><timeline_page/><title>Suppliers</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>762062681</payload_hash>
+        <record_name>Suppliers</record_name>
+        <reverted_from/>
+        <source>e0c7cb39dbba60109cc5e9c94896195a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-11 15:59:33</sys_created_on>
+        <sys_id>d909c306db3220109cc5e9c94896199f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1782203bc460000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-11 15:59:33</sys_updated_on>
+        <type>Module</type>
+        <update_guid>5909c3063f32201073a79210ff96ec9f</update_guid>
+        <update_guid_history>5909c3063f32201073a79210ff96ec9f:0,87e783b959ba60107e5c3df2920914b4:-529227338</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Suppliers">da990f46db3220109cc5e9c948961960</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-11 16:02:05</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>7d53df97e01c4e0f9c641025f4469971</sys_id>
+        <sys_metadata>32a5fef12f32201075b42d5df699b62f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Suppliers</sys_name>
+        <sys_package display_value="AMSS Warehouse" source="x_526773_amss_ware">6a4fec11db3220109cc5e9c94896194a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="AMSS Warehouse">6a4fec11db3220109cc5e9c94896194a</sys_scope>
+        <sys_scope_delete display_value="">025a92ecffa44bd8805c1fa060592d10</sys_scope_delete>
+        <sys_update_name>sys_app_module_32a5fef12f32201075b42d5df699b62f</sys_update_name>
+        <sys_update_version display_value="sys_app_module_32a5fef12f32201075b42d5df699b62f">d909c306db3220109cc5e9c94896199f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-11 16:02:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

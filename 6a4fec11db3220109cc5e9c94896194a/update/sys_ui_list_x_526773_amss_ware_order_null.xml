@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_526773_amss_ware_order" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_526773_amss_ware_order" element="NULL" name="x_526773_amss_ware_order" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9e340702db3220109cc5e9c9489619ce</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-11 15:38:36</sys_created_on>
+            <sys_id>56344382db3220109cc5e9c94896193d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-11 15:38:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_customer_id</element>
+            <list_id display_value="x_526773_amss_ware_order" element="NULL" name="x_526773_amss_ware_order" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9e340702db3220109cc5e9c9489619ce</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-11 15:38:36</sys_created_on>
+            <sys_id>5e344382db3220109cc5e9c94896193d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-11 15:38:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_ship_address</element>
+            <list_id display_value="x_526773_amss_ware_order" element="NULL" name="x_526773_amss_ware_order" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9e340702db3220109cc5e9c9489619ce</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-11 15:38:36</sys_created_on>
+            <sys_id>de344382db3220109cc5e9c94896193d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-11 15:38:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_ship_name</element>
+            <list_id display_value="x_526773_amss_ware_order" element="NULL" name="x_526773_amss_ware_order" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9e340702db3220109cc5e9c9489619ce</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-11 15:38:36</sys_created_on>
+            <sys_id>52344382db3220109cc5e9c94896193e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-11 15:38:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_ship_to_address_1</element>
+            <list_id display_value="x_526773_amss_ware_order" element="NULL" name="x_526773_amss_ware_order" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9e340702db3220109cc5e9c9489619ce</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-11 15:38:36</sys_created_on>
+            <sys_id>d2344382db3220109cc5e9c94896193e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-11 15:38:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_ship_to_address_2</element>
+            <list_id display_value="x_526773_amss_ware_order" element="NULL" name="x_526773_amss_ware_order" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9e340702db3220109cc5e9c9489619ce</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-11 15:38:36</sys_created_on>
+            <sys_id>56344382db3220109cc5e9c94896193e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-11 15:38:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_ship_to_city</element>
+            <list_id display_value="x_526773_amss_ware_order" element="NULL" name="x_526773_amss_ware_order" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9e340702db3220109cc5e9c9489619ce</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-11 15:38:36</sys_created_on>
+            <sys_id>d6344382db3220109cc5e9c94896193e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-11 15:38:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_ship_to_contact</element>
+            <list_id display_value="x_526773_amss_ware_order" element="NULL" name="x_526773_amss_ware_order" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9e340702db3220109cc5e9c9489619ce</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-11 15:38:36</sys_created_on>
+            <sys_id>5a344382db3220109cc5e9c94896193e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-11 15:38:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_ship_to_country</element>
+            <list_id display_value="x_526773_amss_ware_order" element="NULL" name="x_526773_amss_ware_order" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9e340702db3220109cc5e9c9489619ce</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-11 15:38:36</sys_created_on>
+            <sys_id>da344382db3220109cc5e9c94896193e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-11 15:38:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_ship_to_email_s</element>
+            <list_id display_value="x_526773_amss_ware_order" element="NULL" name="x_526773_amss_ware_order" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">9e340702db3220109cc5e9c9489619ce</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>9</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-11 15:38:36</sys_created_on>
+            <sys_id>5e344382db3220109cc5e9c94896193e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-11 15:38:36</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_526773_amss_ware_order</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-11 15:38:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9e340702db3220109cc5e9c9489619ce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_526773_amss_ware_order</sys_name>
+            <sys_package display_value="AMSS Warehouse" source="x_526773_amss_ware">6a4fec11db3220109cc5e9c94896194a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="AMSS Warehouse">6a4fec11db3220109cc5e9c94896194a</sys_scope>
+            <sys_update_name>sys_ui_list_x_526773_amss_ware_order_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-11 15:38:36</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

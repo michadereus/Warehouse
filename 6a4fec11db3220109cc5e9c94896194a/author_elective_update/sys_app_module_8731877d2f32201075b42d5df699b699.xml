@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application/>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Order Line Items</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_526773_amss_ware_order_line_item</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_526773_amss_ware.order_line_item_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-10 20:47:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8731877d2f32201075b42d5df699b699</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Order Line Items</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AMSS Warehouse" source="x_526773_amss_ware">6a4fec11db3220109cc5e9c94896194a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AMSS Warehouse">6a4fec11db3220109cc5e9c94896194a</sys_scope>
+        <sys_update_name>sys_app_module_8731877d2f32201075b42d5df699b699</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-10 20:47:03</sys_updated_on>
+        <timeline_page/>
+        <title>Order Line Items</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AMSS Warehouse">6a4fec11db3220109cc5e9c94896194a</application>
+        <file_path/>
+        <instance_id>eaef81bbdbdc734052cec59705961920</instance_id>
+        <instance_name>dev77306</instance_name>
+        <name>sys_app_module_8731877d2f32201075b42d5df699b699</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application/><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Order Line Items</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_526773_amss_ware_order_line_item</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><roles>x_526773_amss_ware.order_line_item_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-03-10 20:47:03</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>8731877d2f32201075b42d5df699b699</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Order Line Items</sys_name><sys_overrides/><sys_package display_value="AMSS Warehouse" source="x_526773_amss_ware">6a4fec11db3220109cc5e9c94896194a</sys_package><sys_policy/><sys_scope display_value="AMSS Warehouse">6a4fec11db3220109cc5e9c94896194a</sys_scope><sys_update_name>sys_app_module_8731877d2f32201075b42d5df699b699</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-03-10 20:47:03</sys_updated_on><timeline_page/><title>Order Line Items</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>2081035562</payload_hash>
+        <record_name>Order Line Items</record_name>
+        <reverted_from/>
+        <source>e0c7cb39dbba60109cc5e9c94896195a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-11 15:59:00</sys_created_on>
+        <sys_id>85e88f82db3220109cc5e9c9489619aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>178220339c90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-11 15:59:00</sys_updated_on>
+        <type>Module</type>
+        <update_guid>05e88f82553220101ef464ba33925faa</update_guid>
+        <update_guid_history>05e88f82553220101ef464ba33925faa:0,cfe783b988ba60100d695dbd3a58b9c3:-1165684901</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Order Line Items">2c794346db3220109cc5e9c948961947</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-11 16:01:25</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>78819e4fd56949d980df2cf6500a0b81</sys_id>
+        <sys_metadata>8731877d2f32201075b42d5df699b699</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Order Line Items</sys_name>
+        <sys_package display_value="AMSS Warehouse" source="x_526773_amss_ware">6a4fec11db3220109cc5e9c94896194a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="AMSS Warehouse">6a4fec11db3220109cc5e9c94896194a</sys_scope>
+        <sys_scope_delete display_value="">025a92ecffa44bd8805c1fa060592d10</sys_scope_delete>
+        <sys_update_name>sys_app_module_8731877d2f32201075b42d5df699b699</sys_update_name>
+        <sys_update_version display_value="sys_app_module_8731877d2f32201075b42d5df699b699">85e88f82db3220109cc5e9c9489619aa</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-11 16:01:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
