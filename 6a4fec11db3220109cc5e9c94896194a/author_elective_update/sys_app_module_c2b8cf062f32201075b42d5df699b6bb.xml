@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="DHA JBSA Warehouse">79c6d6e52f32201075b42d5df699b668</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Received at SATX Warehouse</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_526773_amss_ware_order</name>
+        <order>90</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-11 16:00:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c2b8cf062f32201075b42d5df699b6bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Received at SATX Warehouse</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AMSS Warehouse" source="x_526773_amss_ware">6a4fec11db3220109cc5e9c94896194a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AMSS Warehouse">6a4fec11db3220109cc5e9c94896194a</sys_scope>
+        <sys_update_name>sys_app_module_c2b8cf062f32201075b42d5df699b6bb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-11 16:00:29</sys_updated_on>
+        <timeline_page/>
+        <title>Received at SATX Warehouse</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AMSS Warehouse">6a4fec11db3220109cc5e9c94896194a</application>
+        <file_path/>
+        <instance_id>7ec9dd4fdbd79fc07d8cf22ebf961968</instance_id>
+        <instance_name>dev65738</instance_name>
+        <name>sys_app_module_c2b8cf062f32201075b42d5df699b6bb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="DHA JBSA Warehouse">79c6d6e52f32201075b42d5df699b668</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Received at SATX Warehouse</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_526773_amss_ware_order</name><order>90</order><override_menu_roles>false</override_menu_roles><query/><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-03-11 16:00:29</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>c2b8cf062f32201075b42d5df699b6bb</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Received at SATX Warehouse</sys_name><sys_overrides/><sys_package display_value="AMSS Warehouse" source="x_526773_amss_ware">6a4fec11db3220109cc5e9c94896194a</sys_package><sys_policy/><sys_scope display_value="AMSS Warehouse">6a4fec11db3220109cc5e9c94896194a</sys_scope><sys_update_name>sys_app_module_c2b8cf062f32201075b42d5df699b6bb</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-03-11 16:00:29</sys_updated_on><timeline_page/><title>Received at SATX Warehouse</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>2123551956</payload_hash>
+        <record_name>Received at SATX Warehouse</record_name>
+        <reverted_from/>
+        <source>e125b2312f32201075b42d5df699b698</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-11 16:00:29</sys_created_on>
+        <sys_id>0f3903862f32201075b42d5df699b619</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1782204988a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-11 16:00:29</sys_updated_on>
+        <type>Module</type>
+        <update_guid>c33987c2f532201030d21a359259ceff</update_guid>
+        <update_guid_history>c33987c2f532201030d21a359259ceff:2123551956</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Received at SATX Warehouse">68a907862f32201075b42d5df699b63f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-11 16:02:14</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>6f8c943257654786b8ce434560cd2349</sys_id>
+        <sys_metadata>c2b8cf062f32201075b42d5df699b6bb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Received at SATX Warehouse</sys_name>
+        <sys_package display_value="AMSS Warehouse" source="x_526773_amss_ware">6a4fec11db3220109cc5e9c94896194a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="AMSS Warehouse">6a4fec11db3220109cc5e9c94896194a</sys_scope>
+        <sys_scope_delete display_value="">025a92ecffa44bd8805c1fa060592d10</sys_scope_delete>
+        <sys_update_name>sys_app_module_c2b8cf062f32201075b42d5df699b6bb</sys_update_name>
+        <sys_update_version display_value="sys_app_module_c2b8cf062f32201075b42d5df699b6bb">0f3903862f32201075b42d5df699b619</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-11 16:02:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
