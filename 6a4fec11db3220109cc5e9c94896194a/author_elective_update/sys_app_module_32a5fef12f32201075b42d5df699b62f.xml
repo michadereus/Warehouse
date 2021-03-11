@@ -65,7 +65,7 @@
         <update_guid_history>5909c3063f32201073a79210ff96ec9f:0,87e783b959ba60107e5c3df2920914b4:-529227338</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="">da990f46db3220109cc5e9c948961960</sys_audit_delete>
+        <sys_audit_delete display_value="Suppliers">da990f46db3220109cc5e9c948961960</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-03-11 16:02:05</sys_created_on>
