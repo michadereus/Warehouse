@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Order Line Item" max_length="40" name="x_526773_amss_ware_order_line_item" sizeclass="0" type="collection">
-        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Order Line Item ID" max_length="40" name="number" type="string"/>
         <element label="Discount" max_length="20" name="u_discount" type="currency"/>
         <element label="Document" max_length="20" name="u_document" type="integer"/>
         <element label="Product ID" max_length="40" name="u_product_id" type="string"/>
