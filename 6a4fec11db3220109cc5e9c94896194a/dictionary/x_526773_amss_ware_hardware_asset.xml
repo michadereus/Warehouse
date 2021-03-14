@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Hardware Asset" max_length="40" name="x_526773_amss_ware_hardware_asset" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Status" max_length="40" name="u_choice_1" read_only="true" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Pending ETA to Warehouse" sequence="0" value="pending_1"/>
+                <element inactive_on_update="false" label="In transit to DHA/JBSA Warehouse" sequence="1" value="transit to"/>
+                <element inactive_on_update="false" label="Received at SATX Warehouse" sequence="2" value="received_warehouse"/>
+                <element inactive_on_update="false" label="Pending shipment to customer" sequence="3" value="pending _customer"/>
+                <element inactive_on_update="false" label="Shipped to customer" sequence="4" value="shipped_customer"/>
+                <element inactive_on_update="false" label="Received by customer" sequence="5" value="received_customer"/>
+            </choice>
+        </element>
+        <element label="Part Number" max_length="255" name="u_part_number" type="string"/>
+        <element label="Serial number" max_length="255" name="u_serial_number" type="string"/>
+        <element label="Warehouse location" max_length="100" name="u_warehouse_location" type="string"/>
+    </element>
+</database>

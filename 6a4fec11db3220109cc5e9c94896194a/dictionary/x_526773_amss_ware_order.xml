@@ -12,6 +12,9 @@
         <element label="Ship to email(s)" max_length="100" name="u_ship_to_email_s" type="string"/>
         <element label="Ship to phone" max_length="20" name="u_ship_to_phone" type="phone_number_e164"/>
         <element label="State/Province" max_length="40" name="u_state_province" type="string"/>
+        <element choice="3" label="Status" max_length="40" name="u_status" type="choice">
+            <choice/>
+        </element>
         <element label="Zip / Postal code" max_length="20" name="u_zip_postal_code" type="string"/>
     </element>
 </database>
