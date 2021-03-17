@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="DELETE">
+        <category display_value="" name="x_526773_amss_ware_supplier">x_526773_amss_ware_supplier</category>
+        <maximum_digits>8</maximum_digits>
+        <number>10000</number>
+        <prefix>LCMS SUPP</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-11 16:34:21</sys_created_on>
+        <sys_id>bed0d70e2f32201075b42d5df699b61b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>LCMS SUPP</sys_name>
+        <sys_package display_value="AMSS Warehouse" source="x_526773_amss_ware">6a4fec11db3220109cc5e9c94896194a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AMSS Warehouse">6a4fec11db3220109cc5e9c94896194a</sys_scope>
+        <sys_update_name>sys_number_bed0d70e2f32201075b42d5df699b61b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-11 16:34:21</sys_updated_on>
+    </sys_number>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AMSS Warehouse">6a4fec11db3220109cc5e9c94896194a</application>
+        <file_path/>
+        <instance_id>eaef81bbdbdc734052cec59705961920</instance_id>
+        <instance_name>dev77306</instance_name>
+        <name>sys_number_bed0d70e2f32201075b42d5df699b61b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_526773_amss_ware_supplier">x_526773_amss_ware_supplier</category>
+        <maximum_digits>8</maximum_digits>
+        <number>10000</number>
+        <prefix>LCMS SUPP</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-11 16:34:21</sys_created_on>
+        <sys_id>bed0d70e2f32201075b42d5df699b61b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>LCMS SUPP</sys_name>
+        <sys_package display_value="AMSS Warehouse" source="x_526773_amss_ware">6a4fec11db3220109cc5e9c94896194a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AMSS Warehouse">6a4fec11db3220109cc5e9c94896194a</sys_scope>
+        <sys_update_name>sys_number_bed0d70e2f32201075b42d5df699b61b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-11 16:34:21</sys_updated_on>
+    </sys_number>
+</record_update>]]></payload>
+        <payload_hash>-929111085</payload_hash>
+        <record_name>LCMS SUPP</record_name>
+        <reverted_from/>
+        <source>7bc1db0edb3220109cc5e9c948961936</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-11 16:38:06</sys_created_on>
+        <sys_id>02d15f0edb3220109cc5e9c9489619d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>178222707dd0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-11 16:38:06</sys_updated_on>
+        <type>Number</type>
+        <update_guid>ced15f0e5f32201082517de86443e1d1</update_guid>
+        <update_guid_history>ced15f0e5f32201082517de86443e1d1:-929111085</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-17 15:29:25</sys_created_on>
+        <sys_db_object display_value="" name="sys_number">sys_number</sys_db_object>
+        <sys_id>5af82df03d9f461aa2a9e1e1a5432749</sys_id>
+        <sys_metadata>bed0d70e2f32201075b42d5df699b61b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>LCMS SUPP</sys_name>
+        <sys_package display_value="AMSS Warehouse" source="x_526773_amss_ware">6a4fec11db3220109cc5e9c94896194a</sys_package>
+        <sys_parent display_value="">74c7cb39dbba60109cc5e9c9489619ad</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="AMSS Warehouse">6a4fec11db3220109cc5e9c94896194a</sys_scope>
+        <sys_scope_delete display_value="">025a92ecffa44bd8805c1fa060592d10</sys_scope_delete>
+        <sys_update_name>sys_number_bed0d70e2f32201075b42d5df699b61b</sys_update_name>
+        <sys_update_version display_value="sys_number_bed0d70e2f32201075b42d5df699b61b">02d15f0edb3220109cc5e9c9489619d2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-17 15:29:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

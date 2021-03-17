@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_contract_number_gpc" label="Contract number / GPC" language="en" table="x_526773_amss_ware_order">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_contract_number_gpc</element>
+            <help/>
+            <hint/>
+            <label>Contract number / GPC</label>
+            <language>en</language>
+            <name>x_526773_amss_ware_order</name>
+            <plural>Contract number / GPCs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-17 04:18:56</sys_created_on>
+            <sys_id>f832a3731b3a2010c3bfa9f9bc4bcb6b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Contract number / GPC</sys_name>
+            <sys_package display_value="AMSS Warehouse" source="x_526773_amss_ware">6a4fec11db3220109cc5e9c94896194a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="AMSS Warehouse">6a4fec11db3220109cc5e9c94896194a</sys_scope>
+            <sys_update_name>sys_documentation_x_526773_amss_ware_order_u_contract_number_gpc_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-17 04:18:56</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
