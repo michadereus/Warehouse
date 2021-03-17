@@ -1,20 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Order" max_length="40" name="x_526773_amss_ware_order" sizeclass="0" type="collection">
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Order ID" max_length="40" name="number" type="string"/>
-        <element label="Customer ID" max_length="40" name="u_customer_id" reference="x_526773_amss_ware_customer" type="string"/>
-        <element label="Ship address" max_length="100" name="u_ship_address" type="string"/>
-        <element label="Ship name" max_length="100" name="u_ship_name" type="string"/>
-        <element label="Ship to address 1" max_length="100" name="u_ship_to_address_1" type="string"/>
-        <element label="Ship to address 2" max_length="100" name="u_ship_to_address_2" type="string"/>
-        <element label="Ship to city" max_length="100" name="u_ship_to_city" type="string"/>
-        <element label="Ship to contact" max_length="100" name="u_ship_to_contact" type="string"/>
-        <element label="Ship to country" max_length="40" name="u_ship_to_country" type="string"/>
-        <element label="Ship to email(s)" max_length="100" name="u_ship_to_email_s" type="string"/>
-        <element label="Ship to phone" max_length="20" name="u_ship_to_phone" type="phone_number_e164"/>
-        <element label="State/Province" max_length="40" name="u_state_province" type="string"/>
         <element choice="3" label="Status" max_length="40" name="u_status" type="choice">
             <choice/>
         </element>
-        <element label="Zip / Postal code" max_length="20" name="u_zip_postal_code" type="string"/>
     </element>
 </database>

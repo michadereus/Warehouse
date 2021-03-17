@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Hardware Asset" max_length="40" name="x_526773_amss_ware_hardware_asset" type="collection">
+    <element label="Hardware Asset" max_length="40" name="x_526773_amss_ware_hardware_asset" sizeclass="0" type="collection">
         <element attributes="edge_encryption_enabled=true" choice="1" label="Status" max_length="40" name="u_choice_1" read_only="true" type="string">
             <choice>
                 <element inactive_on_update="false" label="Pending ETA to Warehouse" sequence="0" value="pending_1"/>
