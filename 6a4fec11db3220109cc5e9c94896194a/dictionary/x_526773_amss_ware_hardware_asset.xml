@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Hardware Asset" max_length="40" name="x_526773_amss_ware_hardware_asset" sizeclass="0" type="collection">
+        <element label="Actual price" max_length="20" name="u_actual_price" type="currency"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Status" max_length="40" name="u_choice_1" read_only="true" type="string">
             <choice>
                 <element inactive_on_update="false" label="Pending ETA to Warehouse" sequence="0" value="pending_1"/>
@@ -10,8 +11,16 @@
                 <element inactive_on_update="false" label="Received by customer" sequence="5" value="received_customer"/>
             </choice>
         </element>
+        <element label="Date received" max_length="40" name="u_date_received" type="glide_date_time"/>
+        <element label="Date shipped" max_length="40" name="u_date_shipped" type="glide_date_time"/>
+        <element label="Destination" max_length="32" name="u_destination" reference="cmn_location" reference_qual="nameSTARTSWITH^EQ" reference_qual_condition="nameSTARTSWITH^EQ" type="reference"/>
+        <element label="DHAW Location" max_length="255" name="u_dhaw_location" type="string"/>
+        <element label="Install required?" max_length="40" name="u_install_required" type="boolean"/>
+        <element label="Manufacturer" max_length="255" name="u_manufacturer" type="string"/>
         <element label="Part Number" max_length="255" name="u_part_number" type="string"/>
         <element label="Serial number" max_length="255" name="u_serial_number" type="string"/>
-        <element label="Warehouse location" max_length="100" name="u_warehouse_location" type="string"/>
+        <index name="index">
+            <element name="u_destination"/>
+        </index>
     </element>
 </database>
