@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Order Line Item" max_length="40" name="x_526773_amss_ware_order_line_item" sizeclass="0" type="collection">
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Order Line Item ID" max_length="40" name="number" type="string"/>
-        <element label="Quantity" max_length="20" name="u_quantity" type="integer"/>
+        <element label="Combined price " max_length="20" name="u_combined_price" type="currency"/>
+        <element choice="1" label="Priority" max_length="40" name="u_priority" type="choice">
+            <choice/>
+        </element>
+        <element label="Purpose" max_length="255" name="u_purpose" type="string"/>
+        <element label="QTY due in" max_length="40" name="u_qty_due_in" type="integer"/>
+        <element label="QTY ordered" max_length="40" name="u_qty_ordered" type="integer"/>
+        <element label="QTY received" max_length="40" name="u_qty_received" type="integer"/>
+        <element label="QTY shipped to site" max_length="40" name="u_qty_shipped" type="integer"/>
+        <element choice="1" label="Stagger / Bulk / TBD" max_length="40" name="u_stagger" type="choice">
+            <choice/>
+        </element>
+        <element label="Work notes - order line item" max_length="4000" name="u_work_notes" type="journal_input"/>
     </element>
 </database>

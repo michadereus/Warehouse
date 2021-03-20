@@ -154,6 +154,230 @@
             <sys_user/>
             <type/>
         </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_unit_price</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-20 17:38:10</sys_created_on>
+            <sys_id>a1e5b5491b07e010c3bfa9f9bc4bcbcc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_526773_amss_ware_hardware_asset" sys_domain="global" view="Default view">8cc839fe2f32201075b42d5df699b6bb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-20 17:38:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_held_warehouse</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-20 17:39:38</sys_created_on>
+            <sys_id>833631491b07e010c3bfa9f9bc4bcb98</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_526773_amss_ware_hardware_asset" sys_domain="global" view="Default view">8cc839fe2f32201075b42d5df699b6bb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-20 17:39:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_pbo_record</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-20 17:40:43</sys_created_on>
+            <sys_id>cb76bd491b07e010c3bfa9f9bc4bcbae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_526773_amss_ware_hardware_asset" sys_domain="global" view="Default view">8cc839fe2f32201075b42d5df699b6bb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-20 17:40:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_pbo_email</element>
+            <position>14</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-20 17:49:01</sys_created_on>
+            <sys_id>6468bdc91b07e010c3bfa9f9bc4bcb6c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_526773_amss_ware_hardware_asset" sys_domain="global" view="Default view">8cc839fe2f32201075b42d5df699b6bb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-20 17:49:01</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_pbo_name</element>
+            <position>15</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-20 17:51:44</sys_created_on>
+            <sys_id>50097dc91b07e010c3bfa9f9bc4bcb16</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_526773_amss_ware_hardware_asset" sys_domain="global" view="Default view">8cc839fe2f32201075b42d5df699b6bb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-20 17:51:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_pbo_phone</element>
+            <position>16</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-20 17:58:43</sys_created_on>
+            <sys_id>6a9af94d1b07e010c3bfa9f9bc4bcb55</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_526773_amss_ware_hardware_asset" sys_domain="global" view="Default view">8cc839fe2f32201075b42d5df699b6bb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-20 17:58:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_product_name</element>
+            <position>17</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-20 17:59:58</sys_created_on>
+            <sys_id>c5eafd4d1b07e010c3bfa9f9bc4bcbaa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_526773_amss_ware_hardware_asset" sys_domain="global" view="Default view">8cc839fe2f32201075b42d5df699b6bb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-20 17:59:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_return_new</element>
+            <position>18</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-20 18:01:43</sys_created_on>
+            <sys_id>be4bf18d1b07e010c3bfa9f9bc4bcb44</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_526773_amss_ware_hardware_asset" sys_domain="global" view="Default view">8cc839fe2f32201075b42d5df699b6bb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-20 18:01:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_description</element>
+            <position>19</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-20 18:05:53</sys_created_on>
+            <sys_id>3f3c71cd1b07e010c3bfa9f9bc4bcbba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_526773_amss_ware_hardware_asset" sys_domain="global" view="Default view">8cc839fe2f32201075b42d5df699b6bb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-20 18:05:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_received_at</element>
+            <position>20</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-20 18:20:48</sys_created_on>
+            <sys_id>deaf79411b47e010c3bfa9f9bc4bcbda</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_526773_amss_ware_hardware_asset" sys_domain="global" view="Default view">8cc839fe2f32201075b42d5df699b6bb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-20 18:20:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_desired_ship_date</element>
+            <position>21</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-20 18:22:09</sys_created_on>
+            <sys_id>75ffbd411b47e010c3bfa9f9bc4bcb17</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_526773_amss_ware_hardware_asset" sys_domain="global" view="Default view">8cc839fe2f32201075b42d5df699b6bb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-20 18:22:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_work_notes_ind</element>
+            <position>22</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-20 18:49:07</sys_created_on>
+            <sys_id>382682c51b47e010c3bfa9f9bc4bcb62</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_526773_amss_ware_hardware_asset" sys_domain="global" view="Default view">8cc839fe2f32201075b42d5df699b6bb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-20 18:49:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_receiving_tracking</element>
+            <position>23</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-20 18:57:16</sys_created_on>
+            <sys_id>180886091b47e010c3bfa9f9bc4bcb14</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_526773_amss_ware_hardware_asset" sys_domain="global" view="Default view">8cc839fe2f32201075b42d5df699b6bb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-20 18:57:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_shipping_tracking</element>
+            <position>24</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-20 19:00:12</sys_created_on>
+            <sys_id>5fa80e091b47e010c3bfa9f9bc4bcb25</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_526773_amss_ware_hardware_asset" sys_domain="global" view="Default view">8cc839fe2f32201075b42d5df699b6bb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-20 19:00:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_carrier</element>
+            <position>25</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-20 19:02:35</sys_created_on>
+            <sys_id>c639ca491b47e010c3bfa9f9bc4bcb63</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_526773_amss_ware_hardware_asset" sys_domain="global" view="Default view">8cc839fe2f32201075b42d5df699b6bb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-20 19:02:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_shipping_cost</element>
+            <position>26</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-20 19:07:30</sys_created_on>
+            <sys_id>5e5a4a891b47e010c3bfa9f9bc4bcb2f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_526773_amss_ware_hardware_asset" sys_domain="global" view="Default view">8cc839fe2f32201075b42d5df699b6bb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-20 19:07:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
             <header>false</header>

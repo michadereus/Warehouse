@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Order" max_length="40" name="x_526773_amss_ware_order" sizeclass="0" type="collection">
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Order ID" max_length="40" name="number" type="string"/>
+        <element label="CLIN / GPCLIN" max_length="40" name="u_clin" type="string"/>
         <element label="Contract award date" max_length="40" name="u_contract_award_date" type="glide_date"/>
         <element label="Contract EDD" max_length="40" name="u_contract_edd" type="glide_date"/>
         <element label="Contract number / GPC" max_length="32" name="u_contract_number_gpc" reference="ast_contract" reference_qual="vendor_contractISNOTEMPTY^state=active^EQ" reference_qual_condition="vendor_contractISNOTEMPTY^state=active^EQ" type="reference"/>
         <element label="EUD order?" max_length="40" name="u_eud_order" type="boolean"/>
         <element label="GPC order?" max_length="40" name="u_gpc_order" type="boolean"/>
+        <element label="Project" max_length="255" name="u_project" type="string"/>
+        <element label="Project code" max_length="20" name="u_project_code" type="string"/>
+        <element label="Vendor quote number" max_length="255" name="u_quote_number" type="string"/>
         <element choice="3" label="Service" max_length="40" name="u_service" type="choice">
             <choice/>
         </element>
         <element choice="3" label="Status" max_length="40" name="u_status" type="choice">
             <choice/>
         </element>
+        <element label="MHS ticket number" max_length="255" name="u_ticket_number" type="string"/>
+        <element label="Vendor" max_length="255" name="u_vendor" type="string"/>
         <index name="index">
             <element name="u_contract_number_gpc"/>
         </index>

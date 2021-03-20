@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="cmn_location" label="Customer (ship to)" max_length="40" name="x_526773_amss_ware_customer" type="collection"/>
+</database>

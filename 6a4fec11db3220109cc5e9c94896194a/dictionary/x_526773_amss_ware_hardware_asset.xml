@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Hardware Asset" max_length="40" name="x_526773_amss_ware_hardware_asset" sizeclass="0" type="collection">
-        <element label="Actual price" max_length="20" name="u_actual_price" type="currency"/>
+        <element default="FEDEX" label="Carrier" max_length="255" name="u_carrier" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Status" max_length="40" name="u_choice_1" read_only="true" type="string">
             <choice>
                 <element inactive_on_update="false" label="Pending ETA to Warehouse" sequence="0" value="pending_1"/>
@@ -13,14 +13,27 @@
         </element>
         <element label="Date received" max_length="40" name="u_date_received" type="glide_date_time"/>
         <element label="Date shipped" max_length="40" name="u_date_shipped" type="glide_date_time"/>
-        <element label="Destination" max_length="32" name="u_destination" reference="cmn_location" reference_qual="nameSTARTSWITH^EQ" reference_qual_condition="nameSTARTSWITH^EQ" type="reference"/>
-        <element label="DHAW Location" max_length="255" name="u_dhaw_location" type="string"/>
+        <element label="Description / Nomenclature" max_length="255" name="u_description" type="string"/>
+        <element label="Desired ship date" max_length="40" name="u_desired_ship_date" type="glide_date"/>
+        <element label="DHAW location" max_length="255" name="u_dhaw_location" type="string"/>
+        <element label="Held at warehouse?" max_length="40" name="u_held_warehouse" type="boolean"/>
         <element label="Install required?" max_length="40" name="u_install_required" type="boolean"/>
         <element label="Manufacturer" max_length="255" name="u_manufacturer" type="string"/>
-        <element label="Part Number" max_length="255" name="u_part_number" type="string"/>
+        <element label="Part number" max_length="255" name="u_part_number" type="string"/>
+        <element label="PBO email" max_length="255" name="u_pbo_email" type="string"/>
+        <element label="PBO name" max_length="255" name="u_pbo_name" type="string"/>
+        <element label="PBO phone" max_length="40" name="u_pbo_phone" type="phone_number_e164"/>
+        <element label="PBO record?" max_length="40" name="u_pbo_record" type="boolean"/>
+        <element label="Product name" max_length="255" name="u_product_name" type="string"/>
+        <element label="Received at" max_length="255" name="u_received_at" type="string"/>
+        <element label="Receiving tracking number" max_length="255" name="u_receiving_tracking" type="string"/>
+        <element choice="1" label="Return / New ?" max_length="40" name="u_return_new" type="choice">
+            <choice/>
+        </element>
         <element label="Serial number" max_length="255" name="u_serial_number" type="string"/>
-        <index name="index">
-            <element name="u_destination"/>
-        </index>
+        <element label="Shipping freight cost" max_length="20" name="u_shipping_cost" type="currency"/>
+        <element label="Shipping tracking number" max_length="255" name="u_shipping_tracking" type="string"/>
+        <element label="Unit price" max_length="20" name="u_unit_price" type="currency"/>
+        <element label="Work notes - individual asset" max_length="4000" name="u_work_notes_ind" type="journal_input"/>
     </element>
 </database>

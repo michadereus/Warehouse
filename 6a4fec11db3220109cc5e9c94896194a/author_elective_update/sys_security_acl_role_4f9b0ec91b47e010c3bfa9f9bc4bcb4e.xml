@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-20 19:13:01</sys_created_on>
+        <sys_id>4f9b0ec91b47e010c3bfa9f9bc4bcb4e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_526773_amss_ware_customer.x_526773_amss_ware.customer_ship_to_user</sys_name>
+        <sys_package display_value="AMSS Warehouse" source="x_526773_amss_ware">6a4fec11db3220109cc5e9c94896194a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AMSS Warehouse">6a4fec11db3220109cc5e9c94896194a</sys_scope>
+        <sys_security_acl display_value="x_526773_amss_ware_customer">c39b0ec91b47e010c3bfa9f9bc4bcb49</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_4f9b0ec91b47e010c3bfa9f9bc4bcb4e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-20 19:13:01</sys_updated_on>
+        <sys_user_role display_value="x_526773_amss_ware.customer_ship_to_user" name="x_526773_amss_ware.customer_ship_to_user">fa9b86c91b47e010c3bfa9f9bc4bcb2b</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AMSS Warehouse">6a4fec11db3220109cc5e9c94896194a</application>
+        <file_path/>
+        <instance_id>eaef81bbdbdc734052cec59705961920</instance_id>
+        <instance_name>dev77306</instance_name>
+        <name>sys_security_acl_role_4f9b0ec91b47e010c3bfa9f9bc4bcb4e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-03-20 19:13:01</sys_created_on><sys_id>4f9b0ec91b47e010c3bfa9f9bc4bcb4e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_526773_amss_ware_customer.x_526773_amss_ware.customer_ship_to_user</sys_name><sys_package display_value="AMSS Warehouse" source="x_526773_amss_ware">6a4fec11db3220109cc5e9c94896194a</sys_package><sys_policy/><sys_scope display_value="AMSS Warehouse">6a4fec11db3220109cc5e9c94896194a</sys_scope><sys_security_acl display_value="x_526773_amss_ware_customer">c39b0ec91b47e010c3bfa9f9bc4bcb49</sys_security_acl><sys_update_name>sys_security_acl_role_4f9b0ec91b47e010c3bfa9f9bc4bcb4e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-03-20 19:13:01</sys_updated_on><sys_user_role display_value="x_526773_amss_ware.customer_ship_to_user" name="x_526773_amss_ware.customer_ship_to_user">fa9b86c91b47e010c3bfa9f9bc4bcb2b</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>1339924596</payload_hash>
+        <record_name>x_526773_amss_ware_customer.x_526773_amss_ware.customer_ship_to_user</record_name>
+        <reverted_from/>
+        <source>e0c7cb39dbba60109cc5e9c94896195a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-20 19:13:01</sys_created_on>
+        <sys_id>479b0ec91b47e010c3bfa9f9bc4bcb53</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>178510e17950000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-20 19:13:01</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>8f9b0ec9cc47e0104366d579cf5f4f52</update_guid>
+        <update_guid_history>8f9b0ec9cc47e0104366d579cf5f4f52:1339924596</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_526773_amss_ware_customer.x_526773_amss_ware.customer_ship_to_user">3f5e8e4d1b47e010c3bfa9f9bc4bcb94</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-20 19:25:05</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>785ed17fdd6d471ca40ae38e9e0e5d61</sys_id>
+        <sys_metadata>4f9b0ec91b47e010c3bfa9f9bc4bcb4e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_526773_amss_ware_customer.x_526773_amss_ware.customer_ship_to_user</sys_name>
+        <sys_package display_value="AMSS Warehouse" source="x_526773_amss_ware">6a4fec11db3220109cc5e9c94896194a</sys_package>
+        <sys_parent display_value="">c39b0ec91b47e010c3bfa9f9bc4bcb49</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="AMSS Warehouse">6a4fec11db3220109cc5e9c94896194a</sys_scope>
+        <sys_scope_delete display_value="">025a92ecffa44bd8805c1fa060592d10</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_4f9b0ec91b47e010c3bfa9f9bc4bcb4e</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_4f9b0ec91b47e010c3bfa9f9bc4bcb4e">479b0ec91b47e010c3bfa9f9bc4bcb53</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-20 19:25:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
