@@ -7,14 +7,14 @@
         <hint/>
         <name/>
         <order>100</order>
-        <roles/>
+        <roles>snc_internal</roles>
         <sys_class_name>sys_app_application</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-03-09 23:04:09</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>79c6d6e52f32201075b42d5df699b668</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>DHA JBSA Warehouse</sys_name>
         <sys_overrides/>
         <sys_package display_value="AMSS Warehouse" source="x_526773_amss_ware">6a4fec11db3220109cc5e9c94896194a</sys_package>
@@ -22,7 +22,7 @@
         <sys_scope display_value="AMSS Warehouse">6a4fec11db3220109cc5e9c94896194a</sys_scope>
         <sys_update_name>sys_app_application_79c6d6e52f32201075b42d5df699b668</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-03-09 23:04:09</sys_updated_on>
+        <sys_updated_on>2021-03-19 03:13:49</sys_updated_on>
         <title>DHA JBSA Warehouse</title>
         <view_name/>
     </sys_app_application>
