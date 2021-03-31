@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_526773_amss_ware_hardware_asset</collection>
+        <condition>true</condition>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_526773_amss_ware_hardware_asset">u_serial_numbersVALCHANGES^EQ<item endquery="false" field="u_serial_numbers" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Hardware changes </name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+	
+// 	current.u_barcodes_in = '';
+	GlideRecord.setValue('u_Serial_numbers',current.u_serial_numbers);
+	
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-21 08:51:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>642ea0190747a01098a2fd1e7c1ed0e6</sys_id>
+        <sys_mod_count>47</sys_mod_count>
+        <sys_name>Hardware changes </sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AMSS Warehouse" source="x_526773_amss_ware">6a4fec11db3220109cc5e9c94896194a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AMSS Warehouse">6a4fec11db3220109cc5e9c94896194a</sys_scope>
+        <sys_update_name>sys_script_642ea0190747a01098a2fd1e7c1ed0e6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-21 11:54:33</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="DELETE" query="documentkey=642ea0190747a01098a2fd1e7c1ed0e6"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AMSS Warehouse">6a4fec11db3220109cc5e9c94896194a</application>
+        <file_path/>
+        <instance_id>dcdc8d61db9033004d2bac44d49619c6</instance_id>
+        <instance_name>dev76086</instance_name>
+        <name>sys_script_642ea0190747a01098a2fd1e7c1ed0e6</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;x_526773_amss_ware_hardware_asset&lt;/collection&gt;&lt;condition&gt;true&lt;/condition&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="x_526773_amss_ware_hardware_asset"&gt;u_serial_numbersVALCHANGES^EQ&lt;item endquery="false" field="u_serial_numbers" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Hardware changes &lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+	
+// 	current.u_barcodes_in = '';
+	GlideRecord.setValue('u_Serial_numbers',current.u_serial_numbers);
+	
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-03-21 08:51:11&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;642ea0190747a01098a2fd1e7c1ed0e6&lt;/sys_id&gt;&lt;sys_mod_count&gt;47&lt;/sys_mod_count&gt;&lt;sys_name&gt;Hardware changes &lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="AMSS Warehouse" source="x_526773_amss_ware"&gt;6a4fec11db3220109cc5e9c94896194a&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="AMSS Warehouse"&gt;6a4fec11db3220109cc5e9c94896194a&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_642ea0190747a01098a2fd1e7c1ed0e6&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-03-21 11:54:33&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=642ea0190747a01098a2fd1e7c1ed0e6"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-56639982</payload_hash>
+        <record_name>Hardware changes </record_name>
+        <reverted_from/>
+        <source>4080619e0732201098a2fd1e7c1ed0c6</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-21 11:54:33</sys_created_on>
+        <sys_id>39d0f995074ba01098a2fd1e7c1ed07b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17854a306920000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-21 11:54:33</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>fdd0f995b24ba010b672cb9569ad117a</update_guid>
+        <update_guid_history>fdd0f995b24ba010b672cb9569ad117a:-56639982,2430f995774ba0102d58f519bad643fc:1707623510,0120f995e54ba010ee074f56e3196185:1721247413,4bbfa195064ba010bb95e0878ad6862a:232157737,222aad11794ba010452da569c606a99e:-1502131753,10c96ddd4c0ba010dfb1ec38c1c2d912:-674234408,d79965114d4ba010bd331fcfb86e0f8b:-1384914119,02492111964ba0109eb0632eef3d0548:1566416231,f1a82d5d0c0ba010de09181963c9a93a:-1736166857,e19429d97a0ba01028673d16c087c7c6:-1923711886,0144e1d9200ba010e75d811758d234bb:1035653539,111421d95c0ba0108acf811821b1d88e:-250368541,85c329992d0ba01035953414681116c0:2136013238,da83e599500ba0105bb9ca4a622addd2:676870819,3053e159860ba0108ab9d31fecb604a3:2139884314,4a03a559760ba0109c49fb8f1b3138e0:-947698609,ad32e5d1590ba01022a2e99646e4036b:1068334401,49226d955c0ba010a9332687c6e4a324:-1121012091,b6bb95d1190ba0107a8b420f5ccff7d1:-1916500073,269b15d15d0ba0103adf49c320e70360:1969640009,5a3b9d91f60ba010de8c7fc21b1ffecd:-577758990,c157519dc2c7a0109b9c4596fe970193:-68149639,97b5d95d5ec7a010e8af125e1d8514f2:-689283202,ec95d95dadc7a010d870907f88f47dea:14849757,4f555d1dbec7a01091d9fc8538a94b72:528737918,cf45d55d98c7a010e92d8f774317592f:-55842274,67849dd97ac7a01033c6598a79071b4b:1184094717,e75399d988c7a010c71f3e079e94a887:277883484,6d42199959c7a0108e8d4d43b6defab6:623387637,b912dd1994c7a0105a0e295ff30453a5:1815488918,fea11d1914c7a010a95d7f274946ddf9:-1121522913,5e815dd5afc7a010e4ce24d653624f7f:887689192,aa7099d560c7a01045ff564cfd24d8b7:-1067790801,6c505d95f1c7a010355758ef3f1c0bbc:-318248762,8a5f0155d9c7a010d780bef58c9b2ae3:2065092253,993f09959bc7a010795c5e5f04b9e4a9:-1973586388,280f45957ec7a010f8054af3dd518b6b:-180806530,188dc1152dc7a010868ea88c299b3bdf:-1059178849,cf2d491522c7a010db9ff83b29e970ad:1119003805,e82cc1915ec7a0102a1f24d2b26add68:392032596,1ada4191d8c7a01034ab9f32e7f97e6e:-1646919924,51bacddd3f87a010393e7d78b9ba6c6b:-918776928,f5aac1119ec7a010769c9541b83c0603:79017327,5e8a019179c7a0109e21dc3b8ba02a54:-1384125095,2539811140c7a01068caee3f9af00ae8:773565937,789841113ac7a0109f82a27e75360fe9:1835351176,3538c19dee87a010242f515128e0e7b9:704278009,08e6099d6487a0108b54ad04d4e06859:-2054342641</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-21 11:55:24</sys_created_on>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>146042328ef64785894b1bb7c066b661</sys_id>
+        <sys_metadata>642ea0190747a01098a2fd1e7c1ed0e6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Hardware changes </sys_name>
+        <sys_package display_value="AMSS Warehouse" source="x_526773_amss_ware">6a4fec11db3220109cc5e9c94896194a</sys_package>
+        <sys_parent display_value="Hardware Asset">162322e80703201098a2fd1e7c1ed042</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="AMSS Warehouse">6a4fec11db3220109cc5e9c94896194a</sys_scope>
+        <sys_scope_delete display_value="">025a92ecffa44bd8805c1fa060592d10</sys_scope_delete>
+        <sys_update_name>sys_script_642ea0190747a01098a2fd1e7c1ed0e6</sys_update_name>
+        <sys_update_version display_value="sys_script_642ea0190747a01098a2fd1e7c1ed0e6">39d0f995074ba01098a2fd1e7c1ed07b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-21 11:55:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

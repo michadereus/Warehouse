@@ -80,7 +80,7 @@
         <update_guid_history>0be783b91dba60102b008c696316dda9:-1384354077</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Order Line Item">49e88f82db3220109cc5e9c9489619ac</sys_audit_delete>
+        <sys_audit_delete display_value="">49e88f82db3220109cc5e9c9489619ac</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-03-11 15:59:00</sys_created_on>

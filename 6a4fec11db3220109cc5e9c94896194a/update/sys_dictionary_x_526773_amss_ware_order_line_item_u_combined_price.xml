@@ -14,7 +14,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Combined price </column_label>
+        <column_label>Combined price</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -53,15 +53,15 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-03-20 17:29:18</sys_created_on>
-        <sys_id>2ab3f5c51b07e010c3bfa9f9bc4bcb20</sys_id>
+        <sys_id>e166f21d074fa01098a2fd1e7c1ed008</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Combined price </sys_name>
+        <sys_name>Combined price</sys_name>
         <sys_package display_value="AMSS Warehouse" source="x_526773_amss_ware">6a4fec11db3220109cc5e9c94896194a</sys_package>
         <sys_policy/>
         <sys_scope display_value="AMSS Warehouse">6a4fec11db3220109cc5e9c94896194a</sys_scope>
         <sys_update_name>sys_dictionary_x_526773_amss_ware_order_line_item_u_combined_price</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-03-20 17:29:18</sys_updated_on>
+        <sys_updated_on>2021-03-21 16:58:44</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

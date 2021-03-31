@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="System Import Sets">import_sets</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Warehouse File In</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_526773_amss_ware_warehouse_file_in</name>
+        <order>1100</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-29 23:32:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f44ddd4c0713601098a2fd1e7c1ed0c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Warehouse File In</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AMSS Warehouse" source="x_526773_amss_ware">6a4fec11db3220109cc5e9c94896194a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AMSS Warehouse">6a4fec11db3220109cc5e9c94896194a</sys_scope>
+        <sys_update_name>sys_app_module_f44ddd4c0713601098a2fd1e7c1ed0c5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-29 23:32:17</sys_updated_on>
+        <timeline_page/>
+        <title>Warehouse File In</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AMSS Warehouse">6a4fec11db3220109cc5e9c94896194a</application>
+        <file_path/>
+        <instance_id>dcdc8d61db9033004d2bac44d49619c6</instance_id>
+        <instance_name>dev76086</instance_name>
+        <name>sys_app_module_f44ddd4c0713601098a2fd1e7c1ed0c5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="System Import Sets">import_sets</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Warehouse File In</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_526773_amss_ware_warehouse_file_in</name><order>1100</order><override_menu_roles>false</override_menu_roles><query/><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-03-29 23:32:17</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>f44ddd4c0713601098a2fd1e7c1ed0c5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Warehouse File In</sys_name><sys_overrides/><sys_package display_value="AMSS Warehouse" source="x_526773_amss_ware">6a4fec11db3220109cc5e9c94896194a</sys_package><sys_policy/><sys_scope display_value="AMSS Warehouse">6a4fec11db3220109cc5e9c94896194a</sys_scope><sys_update_name>sys_app_module_f44ddd4c0713601098a2fd1e7c1ed0c5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-03-29 23:32:17</sys_updated_on><timeline_page/><title>Warehouse File In</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-580936350</payload_hash>
+        <record_name>Warehouse File In</record_name>
+        <reverted_from/>
+        <source>4080619e0732201098a2fd1e7c1ed0c6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-29 23:32:17</sys_created_on>
+        <sys_id>b44ddd4c0713601098a2fd1e7c1ed0c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1788054b3080000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-29 23:32:17</sys_updated_on>
+        <type>Module</type>
+        <update_guid>fc4ddd4c9b136010932de9d0646f3fc7</update_guid>
+        <update_guid_history>fc4ddd4c9b136010932de9d0646f3fc7:-580936350</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Warehouse File In">bb3aa5080753601098a2fd1e7c1ed0b5</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-30 00:29:01</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>08bef5b4f0ac4bf8a240fea39c05a640</sys_id>
+        <sys_metadata>f44ddd4c0713601098a2fd1e7c1ed0c5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Warehouse File In</sys_name>
+        <sys_package display_value="AMSS Warehouse" source="x_526773_amss_ware">6a4fec11db3220109cc5e9c94896194a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="AMSS Warehouse">6a4fec11db3220109cc5e9c94896194a</sys_scope>
+        <sys_scope_delete display_value="">025a92ecffa44bd8805c1fa060592d10</sys_scope_delete>
+        <sys_update_name>sys_app_module_f44ddd4c0713601098a2fd1e7c1ed0c5</sys_update_name>
+        <sys_update_version display_value="sys_app_module_f44ddd4c0713601098a2fd1e7c1ed0c5">b44ddd4c0713601098a2fd1e7c1ed0c8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-30 00:29:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

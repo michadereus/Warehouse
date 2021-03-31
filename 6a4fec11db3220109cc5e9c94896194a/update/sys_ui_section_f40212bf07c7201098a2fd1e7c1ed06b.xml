@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="f40212bf07c7201098a2fd1e7c1ed06b" sys_domain="global" table="sys_db_object" version="3" view="order_line_item">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-29 08:44:16</sys_created_on>
+            <sys_id>f40212bf07c7201098a2fd1e7c1ed068</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-29 08:44:16</sys_updated_on>
+            <text>Table Form Top</text>
+            <type display_value="Section Details">19756e5ec3313000bac1addbdfba8f18</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>f40212bf07c7201098a2fd1e7c1ed068</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-29 08:44:16</sys_created_on>
+            <sys_id>380212bf07c7201098a2fd1e7c1ed06c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_db_object" sys_domain="global" view="740212bf07c7201098a2fd1e7c1ed065">f40212bf07c7201098a2fd1e7c1ed06b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-29 08:44:16</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-29 08:44:16</sys_created_on>
+            <sys_id>b80212bf07c7201098a2fd1e7c1ed06c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_db_object" sys_domain="global" view="740212bf07c7201098a2fd1e7c1ed065">f40212bf07c7201098a2fd1e7c1ed06b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-29 08:44:16</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>label</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-29 08:44:16</sys_created_on>
+            <sys_id>3c0212bf07c7201098a2fd1e7c1ed06c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_db_object" sys_domain="global" view="740212bf07c7201098a2fd1e7c1ed065">f40212bf07c7201098a2fd1e7c1ed06b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-29 08:44:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-29 08:44:16</sys_created_on>
+            <sys_id>bc0212bf07c7201098a2fd1e7c1ed06c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_db_object" sys_domain="global" view="740212bf07c7201098a2fd1e7c1ed065">f40212bf07c7201098a2fd1e7c1ed06b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-29 08:44:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>super_class</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-29 08:44:16</sys_created_on>
+            <sys_id>300212bf07c7201098a2fd1e7c1ed06d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_db_object" sys_domain="global" view="740212bf07c7201098a2fd1e7c1ed065">f40212bf07c7201098a2fd1e7c1ed06b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-29 08:44:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-29 08:44:16</sys_created_on>
+            <sys_id>b00212bf07c7201098a2fd1e7c1ed06d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_db_object" sys_domain="global" view="740212bf07c7201098a2fd1e7c1ed065">f40212bf07c7201098a2fd1e7c1ed06b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-29 08:44:16</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_scope</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-29 08:44:16</sys_created_on>
+            <sys_id>340212bf07c7201098a2fd1e7c1ed06d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sys_db_object" sys_domain="global" view="740212bf07c7201098a2fd1e7c1ed065">f40212bf07c7201098a2fd1e7c1ed06b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-29 08:44:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>show_in_menu.xml</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-29 08:44:16</sys_created_on>
+            <sys_id>b40212bf07c7201098a2fd1e7c1ed06d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Show In Menu">3bcb5673ef503000a61d5a3615c0fb85</sys_ui_formatter>
+            <sys_ui_section caption="NULL" display_value="" name="sys_db_object" sys_domain="global" view="740212bf07c7201098a2fd1e7c1ed065">f40212bf07c7201098a2fd1e7c1ed06b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-29 08:44:16</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>sys_db_object</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-29 08:44:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f40212bf07c7201098a2fd1e7c1ed06b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sys_db_object</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="AMSS Warehouse" source="x_526773_amss_ware">6a4fec11db3220109cc5e9c94896194a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="AMSS Warehouse">6a4fec11db3220109cc5e9c94896194a</sys_scope>
+            <sys_update_name>sys_ui_section_f40212bf07c7201098a2fd1e7c1ed06b</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-29 08:44:16</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Order Line Item" name="order_line_item">740212bf07c7201098a2fd1e7c1ed065</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Order Line Item" max_length="40" name="x_526773_amss_ware_order_line_item" sizeclass="0" type="collection">
+    <element label="Order Line Item" max_length="40" name="x_526773_amss_ware_order_line_item" sizeclass="3" type="collection">
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Order Line Item ID" max_length="40" name="number" type="string"/>
-        <element label="Combined price " max_length="20" name="u_combined_price" type="currency"/>
+        <element label="Part Number" mandatory="true" max_length="40" name="part_number" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Input Barcodes" mandatory="true" max_length="40" name="u_barcodes_in" type="file_attachment"/>
+        <element label="Combined price" max_length="20" name="u_combined_price" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="inbound" label="Inbound / Outbound" mandatory="true" max_length="40" name="u_in_or_out" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Inbound" sequence="0" value="inbound"/>
+                <element inactive_on_update="false" label="Outbound" sequence="1" value="outbound"/>
+            </choice>
+        </element>
         <element choice="1" label="Priority" max_length="40" name="u_priority" type="choice">
             <choice/>
         </element>
@@ -14,5 +23,8 @@
             <choice/>
         </element>
         <element label="Work notes - order line item" max_length="4000" name="u_work_notes" type="journal_input"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
     </element>
 </database>

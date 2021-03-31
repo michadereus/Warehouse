@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_part_num_ref" label="Part Number" language="en" table="x_526773_amss_ware_hardware_asset">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_part_num_ref</element>
+            <help/>
+            <hint/>
+            <label>Part Number</label>
+            <language>en</language>
+            <name>x_526773_amss_ware_hardware_asset</name>
+            <plural>Part Numbers</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-29 08:23:06</sys_created_on>
+            <sys_id>222dc6bb07c7201098a2fd1e7c1ed001</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Part Number</sys_name>
+            <sys_package display_value="AMSS Warehouse" source="x_526773_amss_ware">6a4fec11db3220109cc5e9c94896194a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="AMSS Warehouse">6a4fec11db3220109cc5e9c94896194a</sys_scope>
+            <sys_update_name>sys_documentation_x_526773_amss_ware_hardware_asset_u_part_num_ref_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-29 08:23:06</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

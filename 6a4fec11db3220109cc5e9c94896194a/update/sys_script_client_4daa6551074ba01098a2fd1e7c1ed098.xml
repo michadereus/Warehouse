@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>When u_barcodes_in updates in the form, this script de-duplicates the inputs and changes u_serial_numbers to that.</description>
+        <field>u_barcodes_in</field>
+        <global>false</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Update serial numbers onChange</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+	var barcodes = newValue.split(" ");
+	var deduped = [];
+	var i = 0;
+	for (i; i < barcodes.length; i++) {
+		barcodes.sort();
+		if (barcodes[i] !== barcodes[i-1]) {
+			deduped.push(barcodes[i]);
+		}
+		else {
+			g_form.addInfoMessage("Duplicate barcode "+barcodes[i]+" filtered from serial numbers.");
+		}
+	}
+	
+    g_form.setValue('u_serial_numbers', deduped.toString().replace(/,/g, " "));
+	
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-21 11:31:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4daa6551074ba01098a2fd1e7c1ed098</sys_id>
+        <sys_mod_count>42</sys_mod_count>
+        <sys_name>Update serial numbers onChange</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AMSS Warehouse" source="x_526773_amss_ware">6a4fec11db3220109cc5e9c94896194a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AMSS Warehouse">6a4fec11db3220109cc5e9c94896194a</sys_scope>
+        <sys_update_name>sys_script_client_4daa6551074ba01098a2fd1e7c1ed098</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-30 00:50:27</sys_updated_on>
+        <table>x_526773_amss_ware_hardware_asset</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view>Scanning</view>
+    </sys_script_client>
+</record_update>

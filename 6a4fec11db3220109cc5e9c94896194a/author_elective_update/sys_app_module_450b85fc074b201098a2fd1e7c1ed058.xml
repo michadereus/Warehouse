@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Hardware Asset">f796b1be2f32201075b42d5df699b642</application>
+        <assessment/>
+        <device_type/>
+        <filter table="x_526773_amss_ware_hardware_asset">u_install_required=true^EQ<item endquery="false" field="u_install_required" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Scan In</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_526773_amss_ware_hardware_asset</name>
+        <order>160</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-19 21:02:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>450b85fc074b201098a2fd1e7c1ed058</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>Scan</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AMSS Warehouse" source="x_526773_amss_ware">6a4fec11db3220109cc5e9c94896194a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AMSS Warehouse">6a4fec11db3220109cc5e9c94896194a</sys_scope>
+        <sys_update_name>sys_app_module_450b85fc074b201098a2fd1e7c1ed058</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-21 16:51:20</sys_updated_on>
+        <timeline_page/>
+        <title>Scan</title>
+        <uncancelable>false</uncancelable>
+        <view_name>Scanning</view_name>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AMSS Warehouse">6a4fec11db3220109cc5e9c94896194a</application>
+        <file_path/>
+        <instance_id>dcdc8d61db9033004d2bac44d49619c6</instance_id>
+        <instance_name>dev76086</instance_name>
+        <name>sys_app_module_450b85fc074b201098a2fd1e7c1ed058</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Hardware Asset">f796b1be2f32201075b42d5df699b642</application><assessment/><device_type/><filter table="x_526773_amss_ware_hardware_asset">u_install_required=true^EQ<item endquery="false" field="u_install_required" goto="false" newquery="false" operator="=" or="false" value="true"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></filter><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Scan In</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_526773_amss_ware_hardware_asset</name><order>160</order><override_menu_roles>false</override_menu_roles><query/><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-03-19 21:02:40</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>450b85fc074b201098a2fd1e7c1ed058</sys_id><sys_mod_count>13</sys_mod_count><sys_name>Scan</sys_name><sys_overrides/><sys_package display_value="AMSS Warehouse" source="x_526773_amss_ware">6a4fec11db3220109cc5e9c94896194a</sys_package><sys_policy/><sys_scope display_value="AMSS Warehouse">6a4fec11db3220109cc5e9c94896194a</sys_scope><sys_update_name>sys_app_module_450b85fc074b201098a2fd1e7c1ed058</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-03-21 16:51:20</sys_updated_on><timeline_page/><title>Scan</title><uncancelable>false</uncancelable><view_name>Scanning</view_name><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-431310468</payload_hash>
+        <record_name>Scan</record_name>
+        <reverted_from/>
+        <source>6317ba5d074fa01098a2fd1e7c1ed052</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-21 17:01:48</sys_created_on>
+        <sys_id>ea273e5d074fa01098a2fd1e7c1ed0b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17855bc52780000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-21 17:01:48</sys_updated_on>
+        <type>Module</type>
+        <update_guid>59c4b699ca4fa010c7d82a7be01139c9</update_guid>
+        <update_guid_history>59c4b699ca4fa010c7d82a7be01139c9:-431310468,e756721d454fa010783861b114924b04:1538256368,59c4b699ca4fa010c7d82a7be01139c9:-431310468,cdd37659884fa010b870b19a9c03dfc9:288988071,148376199d4fa010bf1cc097112f75eb:1415516956,7cd1b2d5cf4fa0107b5547c251c3303a:652062077,56b13a95f24fa010c33c4741f9ec92ba:-1605478895,5dc0f295cc4fa0109d532bcceab9d440:652062077,e818a65dae0fa0108191f684290b39c9:495858655,92133d59254ba0101076340676ad9770:1360929731,47cea241db8f601067c4772a7aefc39b:-1686350424,21dd22412a8f6010a080c213efa03e63:-285247256,3835f5f4040f20100456e7366b588ae3:-259716714,541c25fc88cb2010c7ce3772f47db11d:1383785835,523ed9b086cb201089d13a9ff52c6553:990645440,671b5dfcb38b2010b43eb92e22545c29:-618592616</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Scan">4cb23a7b074b201098a2fd1e7c1ed038</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-29 11:07:02</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>100a9ff89bf84388984d146733238040</sys_id>
+        <sys_metadata>450b85fc074b201098a2fd1e7c1ed058</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Scan</sys_name>
+        <sys_package display_value="AMSS Warehouse" source="x_526773_amss_ware">6a4fec11db3220109cc5e9c94896194a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="AMSS Warehouse">6a4fec11db3220109cc5e9c94896194a</sys_scope>
+        <sys_scope_delete display_value="">025a92ecffa44bd8805c1fa060592d10</sys_scope_delete>
+        <sys_update_name>sys_app_module_450b85fc074b201098a2fd1e7c1ed058</sys_update_name>
+        <sys_update_version display_value="sys_app_module_450b85fc074b201098a2fd1e7c1ed058">ea273e5d074fa01098a2fd1e7c1ed0b6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-29 11:07:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

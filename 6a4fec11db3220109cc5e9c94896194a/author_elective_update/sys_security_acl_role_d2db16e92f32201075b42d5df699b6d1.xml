@@ -60,7 +60,7 @@
         <update_guid_history>58f55ce3a3322010a9f8ac98d4884795:0,053a4bc7c53220100ddff85a37c8c593:-60425102,2e5b62b5de7a6010da600bbb561d26dc:-19532470</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_526773_amss_ware_customer.x_526773_amss_ware.customer_user">b13587331bf62010c3bfa9f9bc4bcb83</sys_audit_delete>
+        <sys_audit_delete display_value="">b13587331bf62010c3bfa9f9bc4bcb83</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-03-17 02:12:18</sys_created_on>

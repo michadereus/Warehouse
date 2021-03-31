@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_barcodes_in</field>
+        <global>false</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Barcode handler</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+	
+//     g_form.setValue('u_serial_numbers', newValue);
+    //Type appropriate comment here, and begin script below
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-21 02:21:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>16e66b450743a01098a2fd1e7c1ed0f5</sys_id>
+        <sys_mod_count>41</sys_mod_count>
+        <sys_name>Barcode handler</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AMSS Warehouse" source="x_526773_amss_ware">6a4fec11db3220109cc5e9c94896194a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AMSS Warehouse">6a4fec11db3220109cc5e9c94896194a</sys_scope>
+        <sys_update_name>sys_script_client_16e66b450743a01098a2fd1e7c1ed0f5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-21 07:02:52</sys_updated_on>
+        <table>x_526773_amss_ware_hardware_asset</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view>Scanning</view>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AMSS Warehouse">6a4fec11db3220109cc5e9c94896194a</application>
+        <file_path/>
+        <instance_id>dcdc8d61db9033004d2bac44d49619c6</instance_id>
+        <instance_name>dev76086</instance_name>
+        <name>sys_script_client_16e66b450743a01098a2fd1e7c1ed0f5</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;u_barcodes_in&lt;/field&gt;&lt;global&gt;false&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Barcode handler&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+	
+//     g_form.setValue('u_serial_numbers', newValue);
+    //Type appropriate comment here, and begin script below
+
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-03-21 02:21:40&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;16e66b450743a01098a2fd1e7c1ed0f5&lt;/sys_id&gt;&lt;sys_mod_count&gt;41&lt;/sys_mod_count&gt;&lt;sys_name&gt;Barcode handler&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="AMSS Warehouse" source="x_526773_amss_ware"&gt;6a4fec11db3220109cc5e9c94896194a&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="AMSS Warehouse"&gt;6a4fec11db3220109cc5e9c94896194a&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_16e66b450743a01098a2fd1e7c1ed0f5&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-03-21 07:02:52&lt;/sys_updated_on&gt;&lt;table&gt;x_526773_amss_ware_hardware_asset&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view&gt;Scanning&lt;/view&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-2129194163</payload_hash>
+        <record_name>Barcode handler</record_name>
+        <reverted_from/>
+        <source>4080619e0732201098a2fd1e7c1ed0c6</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-21 07:02:52</sys_created_on>
+        <sys_id>111eacd50747a01098a2fd1e7c1ed0b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1785397fc780000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-21 07:02:52</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>591eacd57c47a010a38db8368dc306b7</update_guid>
+        <update_guid_history>591eacd57c47a010a38db8368dc306b7:-2129194163,e3c4c091dac3a010d41cb7b264579af8:1120672972,40844c51e6c3a0103e495537a76c1352:-1396912517,be540c5197c3a0106ecc9f2108ce9d23:-1687408766,3224085164c3a0105878f67a6905d835:1933704718,c8d3881133c3a010952f7e7aaf2cf84d:-1195247443,25b30051eac3a010f3f786daeebe2c0c:-1709214557,8293881100c3a010fa70719976965a48:-2124571753,eb438cddf283a0109113f34898cf22c5:-136745402,29330cdd2783a010d9699c323fe3b470:-1640710147,0a2384117fc3a010910e2027d38bb55e:1968112532,20e2ccdd6883a010dd8ab58c831b30ba:1886952491,f2b2005d6f83a010dfc51abaded57dc7:-368315757,c3920cdd8883a010fd285b9d33db9e69:434475027,e092485d5683a01054631c63bbaa9b9e:1561147138,1e72005d6783a0103681c0c4833331c2:-1657264214,cc40485d5b83a01054cc79ccbe7ca794:1088382655,f410c05de283a01033bc2491583d2e53:-2129945085,10eff34d8183a010377fcaa7c936534f:1347463487,933ff30d3783a01067d1a548e949271a:-1268527417,39bdbf89ab83a010105d3c1596a9262a:1039517766,ef8dfb893d83a0107e82b86ba2cca40f:-1205906673,016dfb899c83a0100980d4be063ca009:1971983382,07ec7f49ff83a0104a23e53ef19165d6:-251981096,04cc7b092883a01028503e9843ab974b:-1931047608,907cfb493983a0109d6acf18b8c59564:1928678685,d099f7852e83a010fbc34a2d2d8734ea:-1102383067,7a19b7857483a010c48b9dd3850de0fe:1946099289,74f8b7853083a01046e96e7edf45630c:-907499752,9cd8f3855d83a01012a5669500e8dc91:-1474836735,355773053783a010ca31fd7fe780f817:764878391,22073f41a983a01036b051c59bdb3d6e:777149161,28463f41d883a0100476c199f355c068:115523781,3b047f41da83a0100f911d326c2217e6:-571565257,3cc377418083a0102524e618850044e5:-703373884,e4a37741a383a010a944371c2e5456ef:1852504385,eee13f8d2f43a0106fa7314d104d7567:-1822864224,82913bcd6343a01081f24c6785825166:461408172,da80f78df943a010c676d468b29ef740:-690224681,0360b78d7143a010a8bbc50e36ac81f4:-1095685310,6840f34d0c43a01041bb49bd6d02c00d:45903703,8abd2f893b43a01090612253040dd6ea:1980374237</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-21 07:44:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>3392570e7f93446a8d4e6a6c429c5fa4</sys_id>
+        <sys_metadata>16e66b450743a01098a2fd1e7c1ed0f5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Barcode handler</sys_name>
+        <sys_package display_value="AMSS Warehouse" source="x_526773_amss_ware">6a4fec11db3220109cc5e9c94896194a</sys_package>
+        <sys_parent display_value="Hardware Asset">162322e80703201098a2fd1e7c1ed042</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="AMSS Warehouse">6a4fec11db3220109cc5e9c94896194a</sys_scope>
+        <sys_scope_delete display_value="">025a92ecffa44bd8805c1fa060592d10</sys_scope_delete>
+        <sys_update_name>sys_script_client_16e66b450743a01098a2fd1e7c1ed0f5</sys_update_name>
+        <sys_update_version display_value="sys_script_client_16e66b450743a01098a2fd1e7c1ed0f5">111eacd50747a01098a2fd1e7c1ed0b8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-21 07:44:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

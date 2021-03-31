@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_file_attachment_1" label="Serial Nums Input" language="en" table="x_526773_amss_ware_hardware_asset">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_file_attachment_1</element>
+            <help/>
+            <hint/>
+            <label>Serial Nums Input</label>
+            <language>en</language>
+            <name>x_526773_amss_ware_hardware_asset</name>
+            <plural>Serial Nums Inputs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-27 20:15:03</sys_created_on>
+            <sys_id>3fec1a9f0703201098a2fd1e7c1ed068</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Serial Nums Input</sys_name>
+            <sys_package display_value="AMSS Warehouse" source="x_526773_amss_ware">6a4fec11db3220109cc5e9c94896194a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="AMSS Warehouse">6a4fec11db3220109cc5e9c94896194a</sys_scope>
+            <sys_update_name>sys_documentation_x_526773_amss_ware_hardware_asset_u_file_attachment_1_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-29 01:13:53</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

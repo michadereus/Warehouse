@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="barcodes_table" max_length="40" name="x_526773_amss_ware_barcodes_table" sizeclass="0" type="collection">
+        <element attributes="import_attribute_name=qty" label="Qty" max_length="40" name="qty" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=u_count_" label="Count" max_length="40" name="u_count" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Count:" label="Count" max_length="40" name="u_count_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Serial Number" label="Serial Number" max_length="40" name="u_serial_number" type="string"/>
+    </element>
+</database>

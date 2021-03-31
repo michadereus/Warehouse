@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_barcodes_in</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Update serial numbers</name>
+        <order/>
+        <script><![CDATA[function onCellEdit(sysIDs, table, oldValues, newValue, callback) {
+    var saveAndClose = true;
+    //Type appropriate comment here, and begin script below
+// 	var barcodes = new global.ArrayUtil();
+// 	var barcodes = barcodes.unique(g_form.getValue('u_barcodes_in').split(" "));
+	if ( oldValues == 0) {
+		g_form.addInfoMessage("asdasdas");
+	}
+// 	g_form.addInfoMessage(barcodes.toString().replace(","," "));
+
+    callback(saveAndClose);
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-21 11:11:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>45e52d1d070ba01098a2fd1e7c1ed0ae</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Update serial numbers</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AMSS Warehouse" source="x_526773_amss_ware">6a4fec11db3220109cc5e9c94896194a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AMSS Warehouse">6a4fec11db3220109cc5e9c94896194a</sys_scope>
+        <sys_update_name>sys_script_client_45e52d1d070ba01098a2fd1e7c1ed0ae</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-21 11:15:08</sys_updated_on>
+        <table>x_526773_amss_ware_hardware_asset</table>
+        <type>onCellEdit</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AMSS Warehouse">6a4fec11db3220109cc5e9c94896194a</application>
+        <file_path/>
+        <instance_id>dcdc8d61db9033004d2bac44d49619c6</instance_id>
+        <instance_name>dev76086</instance_name>
+        <name>sys_script_client_45e52d1d070ba01098a2fd1e7c1ed0ae</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;u_barcodes_in&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Update serial numbers&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onCellEdit(sysIDs, table, oldValues, newValue, callback) {
+    var saveAndClose = true;
+    //Type appropriate comment here, and begin script below
+// 	var barcodes = new global.ArrayUtil();
+// 	var barcodes = barcodes.unique(g_form.getValue('u_barcodes_in').split(" "));
+	if ( oldValues == 0) {
+		g_form.addInfoMessage("asdasdas");
+	}
+// 	g_form.addInfoMessage(barcodes.toString().replace(","," "));
+
+    callback(saveAndClose);
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-03-21 11:11:09&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;45e52d1d070ba01098a2fd1e7c1ed0ae&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Update serial numbers&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="AMSS Warehouse" source="x_526773_amss_ware"&gt;6a4fec11db3220109cc5e9c94896194a&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="AMSS Warehouse"&gt;6a4fec11db3220109cc5e9c94896194a&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_45e52d1d070ba01098a2fd1e7c1ed0ae&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-03-21 11:15:08&lt;/sys_updated_on&gt;&lt;table&gt;x_526773_amss_ware_hardware_asset&lt;/table&gt;&lt;type&gt;onCellEdit&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-681169416</payload_hash>
+        <record_name>Update serial numbers</record_name>
+        <reverted_from/>
+        <source>4080619e0732201098a2fd1e7c1ed0c6</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-21 11:15:08</sys_created_on>
+        <sys_id>20d7699d070ba01098a2fd1e7c1ed0b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>178547ef18e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-21 11:15:08</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>68d7699d5a0ba0106672e1c1cf1fa4b0</update_guid>
+        <update_guid_history>68d7699d5a0ba0106672e1c1cf1fa4b0:-681169416,d9176d5dc30ba010bc4632f18744b50b:2045099102,1ae6251df70ba01012c3b4f1f0c9c58b:251789342</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-21 11:20:30</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>80ff4f7f2fe14cb6b670e7b9b29a2a04</sys_id>
+        <sys_metadata>45e52d1d070ba01098a2fd1e7c1ed0ae</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Update serial numbers</sys_name>
+        <sys_package display_value="AMSS Warehouse" source="x_526773_amss_ware">6a4fec11db3220109cc5e9c94896194a</sys_package>
+        <sys_parent display_value="Hardware Asset">162322e80703201098a2fd1e7c1ed042</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="AMSS Warehouse">6a4fec11db3220109cc5e9c94896194a</sys_scope>
+        <sys_scope_delete display_value="">025a92ecffa44bd8805c1fa060592d10</sys_scope_delete>
+        <sys_update_name>sys_script_client_45e52d1d070ba01098a2fd1e7c1ed0ae</sys_update_name>
+        <sys_update_version display_value="sys_script_client_45e52d1d070ba01098a2fd1e7c1ed0ae">20d7699d070ba01098a2fd1e7c1ed0b1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-21 11:20:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

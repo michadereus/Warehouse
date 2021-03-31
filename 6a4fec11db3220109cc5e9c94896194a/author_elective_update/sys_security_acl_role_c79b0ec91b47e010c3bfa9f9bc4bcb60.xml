@@ -42,7 +42,7 @@
         <update_guid_history>4f9b0ec96347e0108f937bf0f7aa8963:580704340</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_526773_amss_ware_customer.x_526773_amss_ware.customer_ship_to_user">006e8e4d1b47e010c3bfa9f9bc4bcbd0</sys_audit_delete>
+        <sys_audit_delete display_value="">006e8e4d1b47e010c3bfa9f9bc4bcbd0</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-03-20 19:25:06</sys_created_on>
